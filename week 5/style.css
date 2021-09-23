@@ -1,0 +1,25 @@
+body{
+  font-family: arial;
+  font-size: 2vw;
+  font-weight: 100;
+  border: solid rgb(100,100,100) 1px;
+}
+
+/*p {
+  color: rgb(100,100,100);
+}*/
+
+h1 {
+  background-color: blue;
+}
+
+#second {
+  font-weight: bold;
+}
+.grey {
+  color:rgb(100,100,100) 1px;
+}
+
+.background {
+  background-color:rgb(225,225,225);
+}

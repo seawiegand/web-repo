@@ -1,0 +1,23 @@
+<style>
+  h1{
+    font-size:50px;
+  }
+  #top h1{
+    color:blue;
+  }
+  body{
+    background-color:white;
+  }
+  ul{
+    color:red;
+    font-family: garamond;
+    font-weight: 600;
+    }
+
+    img{
+      width:20vw;
+    }
+
+</style>
+
+/*comment in css*/
