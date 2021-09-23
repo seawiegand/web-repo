@@ -1,0 +1,55 @@
+html{
+  min-height:100%;
+}
+
+body{
+  background-image: linear-gradient(#FF8B8B, #FBB664, #FFE382);
+  font-family: 'Roboto Mono', monospace;
+/*  font-style: monospace;*/
+}
+#top h1{
+  color:#51C2C2;
+  font-weight: bolder;
+}
+
+/*alt header color (brighter blue) #51C2C2*/
+
+#top p{
+  color:white;
+}
+
+.column{
+  float: left;
+  width: 30%;
+  padding: 5px;
+
+}
+.row::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+
+img{
+  width:30vw;
+}
+
+h2{
+  color:#75aa94;
+}
+
+/*h2 span{
+  background-color:#edeff0;
+}*/
+
+h3{
+  color:#75aa94;
+}
+
+/*h3 span{
+  background-color:#edeff0;
+}*/
+
+ul{
+  color:white;
+}
