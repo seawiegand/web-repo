@@ -3,13 +3,17 @@ html{
   min-height:100%;
 }
 
+#line {
+  color:#FF5656;
+}
+
 body{
-  background-image: linear-gradient(#FF8B8B, #FBB664, #FFE382);
+  background-color: #94D2BD;
   font-family: 'Roboto Mono', monospace;
 /*  font-style: monospace;*/
 }
 #top h1{
-  color:#51C2C2;
+  color:#0A9396;
   font-weight: bolder;
 }
 
@@ -36,7 +40,7 @@ img{
 }
 
 h2{
-  color:#75aa94;
+  color:#0A9396;
 }
 
 /*h2 span{
@@ -44,7 +48,7 @@ h2{
 }*/
 
 h3{
-  color:#75aa94;
+  color:#0A9396;
 }
 
 /*h3 span{
@@ -54,59 +58,41 @@ h3{
 ul{
   color:white;
 }
-=======
-html{
-  min-height:100%;
+
+/*a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover
+*/
+
+a: link{
+  color: #AE2012;
 }
 
-body{
-  background-image: linear-gradient(#FF8B8B, #FBB664, #FFE382);
-  font-family: 'Roboto Mono', monospace;
-/*  font-style: monospace;*/
-}
-#top h1{
-  color:#51C2C2;
-  font-weight: bolder;
+a:visited{
+  color: #BB3E03;
 }
 
-/*alt header color (brighter blue) #51C2C2*/
-
-#top p{
-  color:white;
+a:hover{
+  color: #CA6702;
 }
 
-.column{
-  float: left;
-  width: 30%;
-  padding: 5px;
-
-}
-.row::after{
-  content:"";
-  clear: both;
-  display: table;
+a:active{
+  color: #51C2C2;
 }
 
-img{
-  width:30vw;
+button {
+  background-color: #FF8B8B;
+  padding: 20px 40px;
+  font-family:'Roboto Mono', monospace;
+  border:none;
+  font-size: 3vh;
+  border-radius: 100px;
 }
 
-h2{
-  color:#75aa94;
+button:hover{
+  background-color: #FF6D6D;
 }
 
-/*h2 span{
-  background-color:#edeff0;
-}*/
-
-h3{
-  color:#75aa94;
-}
-
-/*h3 span{
-  background-color:#edeff0;
-}*/
-
-ul{
-  color:white;
+button:active{
+  background-color: #FF5656;
+  font-size: 3.2vh;
 }
