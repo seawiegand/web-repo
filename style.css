@@ -4,12 +4,13 @@ html{
 }
 
 #line {
-  color:#FF5656;
+  background-color:#E9D8A6;
 }
 
 body{
-  background-color: #94D2BD;
+  background-color: #E9D8A6;
   font-family: 'Roboto Mono', monospace;
+  margin-left: 30px;
 /*  font-style: monospace;*/
 }
 #top h1{
@@ -20,7 +21,7 @@ body{
 /*alt header color (brighter blue) #51C2C2*/
 
 #top p{
-  color:white;
+  color:black;
 }
 
 .column{
@@ -37,6 +38,8 @@ body{
 
 img{
   width:30vw;
+  border: 5px solid #555;
+  border-color: #AE2012;
 }
 
 h2{
@@ -80,19 +83,19 @@ a:active{
 }
 
 button {
-  background-color: #FF8B8B;
-  padding: 20px 40px;
+  background-color: #AE2012;
+  padding: 10px 20px;
   font-family:'Roboto Mono', monospace;
   border:none;
   font-size: 3vh;
-  border-radius: 100px;
+  border-radius: 80px;
 }
 
 button:hover{
-  background-color: #FF6D6D;
+  background-color: #BB3E03;
 }
 
 button:active{
-  background-color: #FF5656;
+  background-color: #CA6702;
   font-size: 3.2vh;
 }
