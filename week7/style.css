@@ -1,0 +1,57 @@
+#quotesection{
+  background-color: #e9d8a6;
+  margin: 30vh 20vw;
+  padding: 8vh 10vw 10vh 10vw;
+  border-radius: 8px;
+  height: 30vh;
+/*  border: 4px;
+  border-color: #ee9b00;*/
+}
+
+button{
+  border-radius: 8px;
+  padding: 3vh 9vw;
+  float: right;
+  margin-top: 3vh;
+  background-color: #9b2226;
+  color: white;
+  font-family:"roboto mono";
+  font-weight:bold;
+  position:absolute;
+  bottom:200px;
+  right:600px;
+}
+
+button:hover{
+  border: #fff solid 1px;
+  background-color: #bb3e03;
+}
+
+button:active{
+  color: white;
+  background-color: #ca6702;
+}
+
+h1{
+  color: #0a9396;
+  font-family:"roboto mono";
+  font-weight: 400;
+}
+
+#flex{
+  display: flex;
+  margin: 150px;
+}
+
+div{
+  border: 1px solid black;
+  margin-left: 2vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+}
+
+.flexitem2{
+  flex-grow: 2;
+}

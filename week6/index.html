@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>week 6</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section id="ACLskyline" >
+  <h1>Austin City Limits</h1>
+  <img alt="austin skyline during ACL" src="ACLskyline.jpg" id="ACLskylineimg" class="img1">
+</section>
+
+<section id="one">
+  <h2>I built this website to talk about Austin City Limits Music Festival!</h2>
+  <p>Austin City Limits is a three day, two weekend music festival in Austin, Texas. It is typically in early to mid October and hosts some of the worlds most famous musicians.</p>
+  <p>
+  Etiam dui lectus, lobortis vel massa vitae, euismod sodales lacus. Integer quis congue dui. Aliquam fermentum placerat leo, sit amet egestas ante. Sed ipsum lectus, consectetur ut libero eget, semper posuere metus. Nulla nisi diam, fermentum at ligula in, gravida tempus arcu. Morbi blandit sagittis risus vitae pretium. Morbi eget metus et erat maximus consequat. Sed eget ante in neque pharetra feugiat. In aliquam mauris nec euismod rhoncus. Aenean elementum vel risus ac tempor.</p>
+  </section>
+
+  <section id="three">
+    <h2 id="bheader">feel free to click the button</h2>
+    <button id="mybutton">Click Me!</button>
+    <button id="mybutton2">Click here next</button>
+  </section>
+  <footer>
+    <p>Thank you for visiting my site!</p>
+    </footer>
+
+    <script>
+      document.getElementById("mybutton").addEventListener("click", buttonClicked);
+      document.getElementById("mybutton2").addEventListener("click," buttonClicked2);
+      document.getElementById("ACLskyline").addEventListener("click," ACLskylineClicked);
+
+      function buttonClicked(){
+        alert("look at that new photo");
+        document.getElementById("herotext").innerHTML = "You are not welcome";
+      }
+
+      function buttonClicked2(){
+        alert("you clicked the second button");
+      }
+
+      /*(){alert("section two clicked!")});
+      function buttonClicked(){
+        alert("check out that new photo!");
+        function buttonClicked2(){
+          alert("you clikced the second button");}*/
+        document.getElementById("ACLskylinetext").innerHTML="You are not welcome";
+      }
+        document.getElementById("bheader").innerHTML = "thanks for interacting!";
+        document.getElementById("bheader").style.color = "red";
+        document.getElementById("ACLskylineimg").setAttribute("src", "jareds21st.jpg");
+
+        document.getElementById("ACLskylineimg").classList.remove("img1");
+        document.getElementById("ACLskylineimg").classList.add("img2");
+      }
+
+
+
+    </script>
+</body>
+
+</html>
