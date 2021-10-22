@@ -1,0 +1,36 @@
+body{
+  background-color: #CBF3F0;
+  font-family: "Francois One";
+
+
+}
+
+h1{
+  text-align: center;
+  color: #FF8587;
+  font-size: 50px;
+}
+
+button{
+  border: 2px solid #FF8587;
+  font-family: "francois One";
+  display: flex;
+  margin: 5vh 5vw 0 5vw;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+button:hover{
+  background-color: #DDDDDD;
+}
+
+button:active{
+  background-color: #D0D0D0;
+}
+
+.menu{
+  margin: 20vh 20vw 0 20vw;
+  padding: 60px 100px;
+}
