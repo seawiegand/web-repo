@@ -8,11 +8,14 @@ html{
 }
 
 body{
-  background-color: #E9D8A6;
-  font-family: 'Roboto Mono', monospace;
+  background-color: #64dfdf;
+
+  /*font-family: 'futura' , monospace;*/
   margin-left: 30px;
 /*  font-style: monospace;*/
 }
+
+
 #top h1{
   color:#0A9396;
   font-weight: bolder;
