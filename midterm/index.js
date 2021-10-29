@@ -1,67 +1,77 @@
-//let day = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
-//let prevday = "monday";
+let days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+let prevday = "monday";
 
 
-//for(i=0; i<document.getElementsByClassName('day').length; i++){
-//  document.getElementsByClassName("day")[i].innerHTML="<h2>" + day[i] + "</h2>";
-
-  //document.getElementsByClassName("day")[i].addEventListener('click', setActive, false);
-
-  //document.getElementsByClassName("day")[i].id = box[i];
-
-  //document.getElementById("monday").addEventListener('click', setActiveButton, false);
-  //document.getElementById("tuesday").addEventListener('click', setActiveButton, false);
-  //document.getElementsById("wednesday").addEventListener('click', setActiveButton, false);
-  //document.getElementsById("thursday").addEventListener('click', setActiveButton, false);
-  //document.getElementsById("friday").addEventListener('click', setActiveButton, false);
-  //document.getElementsById("saturday").addEventListener('click', setActiveButton, false);
-  //document.getElementsById("sunday").addEventListener('click', setActiveButton, false);
-//}
-
-  //document.getElementsById("day").classList.toggle("active");
-
-//function setActiveButton(e){
-  //e.target.classList.toggle("active");
-
-  //prevday = document.getElementsByClassName("active")[0].id;
-  //if(prevday != undefined){
-    //document.getElementById(prevday).classList.toggle("active");
-    //document.getElementById(prevday + "menu").style.display = "none";
-  //}
-
-//function setActive(e){
-  //console.log(e.target.innerHTML);
-
-//if(e.target.tagName == "H2"){
-//  console.log("h2 clicked");
-  //  e.target.parentNode.classList.toggle("active");
-//  }
-  //else{
-  //  console.log("div clicked");
-  //  e.target.classList.toggle("active");
-  //}
+document.getElementById("monday").addEventListener("click", setActiveButton, false);
+document.getElementById("tuesday").addEventListener("click", setActiveButton1, false);
+document.getElementById("wednesday").addEventListener("click", setActiveButton2, false);
+document.getElementById("thursday").addEventListener("click", setActiveButton3, false);
+document.getElementById("friday").addEventListener("click", setActiveButton4, false);
+document.getElementById("saturday").addEventListener("click", setActiveButton5, false);
+document.getElementById("sunday").addEventListener("click", setActiveButton6, false);
 
 
+function setActiveButton(){
+  document.getElementById("mon").style.display="block";
+  document.getElementById("tues", "wed", "thurs", "fri", "sat", "sun").style.display="none";
+}
+function setActiveButton1(){
+  document.getElementById("tues").style.display="block";
+  document.getElementById("mon").style.display="none";
+  document.getElementById("wed").style.display="none";
+  document.getElementById("thurs").style.display="none";
+  document.getElementById("fri").style.display="none";
+  document.getElementById("sat").style.display="none";
+  document.getElementById("sun").style.display="none";
+
+}
+function setActiveButton2(){
+  document.getElementById("wed").style.display="block";
+  document.getElementById("mon").style.display="none";
+  document.getElementById("tues").style.display="none";
+  document.getElementById("thurs").style.display="none";
+  document.getElementById("fri").style.display="none";
+  document.getElementById("sat").style.display="none";
+  document.getElementById("sun").style.display="none";
+}
+function setActiveButton3(){
+  document.getElementById("thurs").style.display="block";
+  document.getElementById("mon").style.display="none";
+  document.getElementById("wed").style.display="none";
+  document.getElementById("tues").style.display="none";
+  document.getElementById("fri").style.display="none";
+  document.getElementById("sat").style.display="none";
+  document.getElementById("sun").style.display="none";
+}
+function setActiveButton4(){
+  document.getElementById("fri").style.display="block";
+  document.getElementById("mon").style.display="none";
+  document.getElementById("wed").style.display="none";
+  document.getElementById("thurs").style.display="none";
+  document.getElementById("tues").style.display="none";
+  document.getElementById("sat").style.display="none";
+  document.getElementById("sun").style.display="none";
+}
+function setActiveButton5(){
+  document.getElementById("sat").style.display="block";
+  document.getElementById("mon").style.display="none";
+  document.getElementById("wed").style.display="none";
+  document.getElementById("thurs").style.display="none";
+  document.getElementById("fri").style.display="none";
+  document.getElementById("tues").style.display="none";
+  document.getElementById("sun").style.display="none";
+}
+function setActiveButton6(){
+  document.getElementById("sun").style.display="block";
+  document.getElementById("mon").style.display="none";
+  document.getElementById("wed").style.display="none";
+  document.getElementById("thurs").style.display="none";
+  document.getElementById("fri").style.display="none";
+  document.getElementById("sat").style.display="none";
+  document.getElementById("tues").style.display="none";
+}
 
 
-//day = document.getElementsByClassName('active')[0].id;
-//console.log(day);
-//document.getElementById(day + "menu").style.display = "block";
-
-//function setActiveButton(e){
-  //e.target.classList.toggle("active");
-//}
-
-//let days = ["mon", "tues", "wed", "thurs", "fri", "sat", "sun"];
-//let prevday= "monday";
-
-//for(i=0; i<document.getElementsByClassName('days').length; i++){
-
-
-//document.getElementById("tuesday").addEventListener("click", buttonClicked1);
-//function buttonClicked1(){
-  //document.getElementById("tues").innerHTML = days[prevday];
-//}
 
 
 
