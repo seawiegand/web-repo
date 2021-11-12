@@ -1,14 +1,13 @@
 body{
   background-color: #CBF3F0;
   font-family: "futura-pt-1","futura-pt-2",sans-serif;
-
-
 }
 
 h1{
   text-align: center;
   color: #FF8587;
   font-size: 50px;
+  text-shadow: 2px 2px gray;
 }
 
 button{
@@ -42,17 +41,9 @@ button:active{
   height: 200px;
 }
 
-
-
-
-/*#todo{
-  display: flex;
-}*/
-
 #tues, #wed, #thurs, #fri, #sat, #sun{
   display: none;
 }
-
 
 
 .title{
@@ -60,7 +51,7 @@ button:active{
   color: #FF8587;
   text-align: center;
   font-size: 30px;
-  position:relative
+  position:relative;
 }
 
 h4{
