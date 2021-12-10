@@ -59,6 +59,15 @@ h1, #index{
   text-align: center;
 }
 
+#futuratitle{
+  text-align: center;
+}
+#typespec{
+  width: 30%;
+  height: 30%;
+
+}
+
 * {box-sizing:border-box}
 .slideshow-container{
   margin-top: 75px;
