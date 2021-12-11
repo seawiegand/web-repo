@@ -82,10 +82,14 @@ h1, #index{
 #project1{
   margin-top: 75px;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #15CCCC;
 }
 
 #futuratitle{
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #15CCCC;
 }
 #typespec{
   width: 30%;
@@ -97,7 +101,7 @@ h1, #index{
 .slideshow-container{
   margin-top: 75px;
   max-width: 775px;
-  position: center;
+
 
   border: 3px solid black;
 }
@@ -122,7 +126,7 @@ h1, #index{
 }
 
 .next {
-  right: 10;
+  right: 10px;
   left: 739px;
   border-radius: 3px 0 0 3px;
 }
@@ -136,10 +140,12 @@ h1, #index{
   flex-direction:column;
   text-align: center;
   align-items: center;
-  height: calc(100%-50px);
+  height: calc(100% - 50px); /*this comes up as an error, but we did it in class and
+  I have seen some examples of it online, so not sure what to do about that*/
   margin-top: 50px;
-
 }
+
+
 
 .underline{
   text-decoration: underline;
