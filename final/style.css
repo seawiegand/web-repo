@@ -28,6 +28,34 @@ h1, #index{
   text-decoration-color: #15CCCC;
   }
 
+#portfolio{
+  line-height: 0;
+  -webkit-column-count:5;
+  -webkit-column-gap:0px;
+  -moz-column-count:5;
+  -moz-column-gap:0px;
+  column-count:5;
+  column-gap: 0px;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  /* got code help from https://medium.com/@MilesOfRoses/css-image-gallery-for-pictures-with-different-aspect-ratios-a20ffecb75d5
+  to figure out how to have images of different sizes all still fit together like a grid */
+}
+
+#portfolio img{
+  display: inline-block;;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit:cover;
+  width:100%;
+  height:100%;
+  filter: grayscale(100%);
+}
+
+
+/*
+
 .column {
   float: left;
   width: 30%;
@@ -52,7 +80,7 @@ h1, #index{
   margin-left: 70px;
 }
 
-
+*/
 
 #project1{
   margin-top: 75px;
