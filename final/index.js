@@ -1,6 +1,3 @@
-
-
-
 //slideshow for portfolio
 var slideIndex = 1;
 showSlides(slideIndex);
